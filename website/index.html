@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .wrapper {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .wrapper {
+            height: 100%;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+            background-size: 1800% 1800%;
+
+            -webkit-animation: rainbow 18s ease infinite;
+            -z-animation: rainbow 18s ease infinite;
+            -o-animation: rainbow 18s ease infinite;
+            animation: rainbow 18s ease infinite;
+        }
+
+        @-webkit-keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        @-moz-keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        @-o-keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 82%
+            }
+
+            50% {
+                background-position: 100% 19%
+            }
+
+            100% {
+                background-position: 0% 82%
+            }
+        }
+
+        .grid-container {
+            display: grid;
+            grid-gap: 5px;
+            background-color: grey;
+            padding: 20px;
+        }
+
+        .grid-container {
+            position: absolute;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+            width: 400px;
+            right: 730px;
+        }
+
+        .item1 {
+            background: lightgreen;
+        }
+
+        .item2 {
+            background-color: lightpink;
+        }
+
+        .item3 {
+            background-color: lightsalmon;
+        }
+
+        .item4 {
+            background-color: cyan;
+        }
+
+        h2 {
+            font-style: oblique;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 style='text-align:
+            center;'>Part Descriptions</h1>
+        <div class="grid-container">
+            <div class="item1"><a href='cpu.html'>CPU</a></div>
+            <div class="item2"><a href='ram.html'>RAM</a></div>
+            <div class="item3"><a href='gpu.html'>GPU</a></div>
+            <div class="item4"><a href='mobo.html'>MOTHERBOARD</a></div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <h2 style="text-align: center;">Click on the panels to view each items' description</h2>
+    </div>
+
+</body>
+
+</html>
